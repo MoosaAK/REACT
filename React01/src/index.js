@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Helloworld from './App';
-import Method from './Method';
+// import Helloworld from './App';
+// import Method from './Method';
+import Clock from './Clock';
 
 // import * as serviceWorker from './serviceWorker';
 
@@ -10,10 +11,11 @@ import Method from './Method';
 
 ReactDOM.render(
     <div>
-        <Helloworld link="https://www.google.com" linkText="GOOGLE" />
+        {/* <Helloworld link="https://www.google.com" linkText="GOOGLE" />
         <Helloworld link="https://www.facebook.com" linkText="FACEBOOK" />
         <Helloworld link="https://www.yahoo.com" linkText="YAHOO" />
-        <Method/>
+        <Method/> */}
+        <Clock />
     </div>
     , document.getElementById('root'),
 );
